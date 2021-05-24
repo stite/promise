@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./index.js"></script>
+  <script>
+    // var pro = new Promise((res, rej) => {
+    //   res(1)
+    //   rej(2)
+    // })
+    // pro.then(data => {
+    //   console.log(data)
+    // }).catch(err => {
+    //   console.log(err)
+    // })
+
+    // const abc = new Promise()
+
+    // var p = new promise((resolve, reject) => {
+    //   setTimeout(() => {
+    //     resolve(4)
+    //   }, 0)
+    // })
+    // p.then((res) => {
+    //   //4 res
+    //   console.log(res, 'res')
+    // }).then((res1) => {
+    //   //4 res1
+    //   console.log(res1, 'res1')
+    // })
+
+    var p = new promise(function (resolve, reject) {
+      setTimeout(function () {
+        resolve(3)
+      }, 1000)
+    });
+    // p.then(1, 1)
+    //   .then('', '')
+    //   .then()
+    //   .then(function (res) {
+    //     //3
+    //     console.log(res)
+    //   })
+    // p.then((data) => {
+    //   console.log('success', data)
+    //   // return new promise((res, rej) => {
+    //   //   res(88)
+    //   // })
+    // }).then(data => {
+    //   console.log("data2", data)
+    // })
+    console.log('start')
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

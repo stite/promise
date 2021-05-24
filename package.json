@@ -1,0 +1,22 @@
+{
+  "name": "primise",
+  "version": "1.0.0",
+  "description": "promise的实现原理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XiaoMing",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stite/promise.git"
+  },
+  "keywords": [
+    "Promise"
+  ],
+  "bugs": {
+    "url": "https://github.com/stite/promise/issues"
+  },
+  "homepage": "https://github.com/stite/promise#readme"
+}
